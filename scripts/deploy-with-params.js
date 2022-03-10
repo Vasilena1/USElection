@@ -1,5 +1,6 @@
 const hre = require('hardhat')
 const ethers = hre.ethers;
+const { ethers } = require("ethers");
 
 async function deployElectionContract(_privateKey) {
     await hre.run('compile'); // We are compiling the contracts using subtask
